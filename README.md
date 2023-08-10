@@ -1,7 +1,7 @@
 # Hbmass-and-PV-prediction-model
 This code allows to predict total hemoglobin mass (Hbmass) and plasma volume (PV) based on a complete blood count analysis (CBC) and anthropometric data.
 
-The variables must named and ordered as follow:
+The variables must be carefully named and ordered as follow:
 Age; Height_cm; Weight_kg; WBC_103_uL; RBC; HGB; HCT; MCV; MCH; MCHC; PLT_103_uL; RDW_SD_fL; RDW_CV_; PDW_fL; MPV_fL; P_LCR_; PCT_; NEUT_103_uL; LYMPH_103_uL; MONO_103_uL; EO_103_uL; BASO_103_uL; NEUT; LYMPH; MONO; EO; BASO; IG_103_uL; IG_; RETP; RET_106_uL; IRF.
 
 Where: 
