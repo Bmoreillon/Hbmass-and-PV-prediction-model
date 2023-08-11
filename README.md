@@ -1,5 +1,5 @@
 # Hbmass-and-PV-prediction-model
-This code allows to predict total hemoglobin mass (Hbmass) and plasma volume (PV) based on a complete blood count analysis (CBC) and anthropometric data. It has beend developped throught MATLAB's regression learner app and can be used on MATLAB.
+This code allows to predict total hemoglobin mass (Hbmass) and plasma volume (PV) based on a complete blood count analysis (CBC) and anthropometric data. It has beend developped through MATLAB's regression learner app and can be used on MATLAB.
 
 Data must be discriminated by sex and the according predicitive model must be used. TrainedModel_Hbmass_men can be used to predict total hemoglobin mass in men; TrainedModel_Hbmass_women can be used to predict total hemoglobin mass in women; TrainedModel_PV_men can be used to predict plasma volume in men; and TrainedModel_PV_women can be used to predict plasma volume in women.
 
