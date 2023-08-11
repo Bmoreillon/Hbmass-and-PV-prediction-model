@@ -1,6 +1,11 @@
 # Hbmass-and-PV-prediction-model
 This code allows to predict total hemoglobin mass (Hbmass) and plasma volume (PV) based on a complete blood count analysis (CBC) and anthropometric data.
 
+Data must be discriminated by sex and the according predicitive model must be used. TrainedModel_Hbmass_men can be used to predict total hemoglobin mass in men; TrainedModel_Hbmass_women can be used to predict total hemoglobin mass in women; TrainedModel_PV_men can be used to predict plasma volume in men; and TrainedModel_PV_women can be used to predict plasma volume in women.
+
+To make predictions on a table T: 
+  yfit = TrainedModel_Name.predictFcn(T) 
+
 The variables must be carefully named and ordered as follow:
 Age; Height_cm; Weight_kg; WBC_103_uL; RBC; HGB; HCT; MCV; MCH; MCHC; PLT_103_uL; RDW_SD_fL; RDW_CV_; PDW_fL; MPV_fL; P_LCR_; PCT_; NEUT_103_uL; LYMPH_103_uL; MONO_103_uL; EO_103_uL; BASO_103_uL; NEUT; LYMPH; MONO; EO; BASO; IG_103_uL; IG_; RETP; RET_106_uL; IRF.
 
